@@ -22,7 +22,7 @@ def app():
     # Below line will produce a dropdown to choose ML/DL model
     st.subheader('Please choose Machine Learning model for your predication')
     option = st.selectbox('',
-    ('Logistic Regression', 'Naive Bayes', 'Support Vector Machine', 'Random Forest', 'LSTM'))  
+    ('Logistic Regression', 'Naive Bayes', 'Support Vector Machine', 'Random Forest'))  
 
     # Reading Pickle files for TFIDF and other Machine Learning models
     tfidf=joblib.load(open('TFIDF.pkl', 'rb')) 
