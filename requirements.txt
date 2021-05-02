@@ -7,3 +7,4 @@ numpy==1.19.5
 beautifulsoup4==4.9.3
 PyMuPDF
 scikit_learn==0.24.1
+lxml
